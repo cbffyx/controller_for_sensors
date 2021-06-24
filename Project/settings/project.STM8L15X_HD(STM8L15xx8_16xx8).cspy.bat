@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210616\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).general.xcl" --backend -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210616\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210624\trunk\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).general.xcl" --backend -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210624\trunk\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210616\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).general.xcl" "--debug_file=%~1" --backend -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210616\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210624\trunk\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).general.xcl" "--debug_file=%~1" --backend -f "F:\物联网开发项目\Lora无线温湿度传感器\Project\lora_project20210624\trunk\Project\settings\project.STM8L15X_HD(STM8L15xx8_16xx8).driver.xcl" 
 
 @echo off 
 :end
